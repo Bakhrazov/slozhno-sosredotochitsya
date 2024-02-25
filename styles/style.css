@@ -245,11 +245,6 @@
   background: var(--page-colar);
 }
 
-.card_books {
-  grid-row: 1/7;
-  grid-column: 1;
-}
-
 .card {
   background-size: cover;
   background-repeat: no-repeat;

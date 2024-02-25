@@ -27,7 +27,7 @@
     background-image: var(--bg-image);
   }
 
-  .header__theme-menu-button_active{
+  .header__theme-menu-button_active {
     border: 1px solid var(--border-color);
   }
 
@@ -62,7 +62,7 @@
     text-shadow: 4px 4px #ff0070;
   }
 
-  .cover__text__box{
+  .cover__text__box {
     background: var(--title-color);
   }
 
