@@ -46,7 +46,7 @@
 
   .decorated-zone::before,
   .footer-decorated-zone::before {
-    border-block-start: 1px solid footer-decorated-zone::after;
+    border-block-start: 1px solid var(--border-color);
     border-inline-end: 1px solid var(--border-color); 
   }
   
@@ -96,6 +96,7 @@
   /*section 2*/
   .second__text {
     background: var(--page-colar);
+    border: 1px solid var(--page-colar);
   }
 
   .background_line_short {

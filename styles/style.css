@@ -4,6 +4,7 @@
   /* сохраните в разметке и стилях класс page. На его основе работает скрипт. */
 }
 
+
 :root {
   --font-family: "IBM Plex Mono";
   --text-color-header_footer: #ffc2e6;
@@ -74,7 +75,7 @@
 .header__theme-menu-list {
   display: flex;
   justify-content: center;
-  margin-top: -7px;
+  margin-top: -26px;
   gap: 1%;
 }
 
@@ -112,7 +113,7 @@
 }
 
 .header__padding__text {
-  padding: 220px 0px 0px;
+  padding: 239px 0px 0px;
 }
 
 .cover__box__pozichen {
@@ -303,7 +304,7 @@
   background-image: url(../images/);
   background-size: cover;
   background-repeat: no-repeat;
-  min-height: 767px;
+  min-height: 775px;
   position: relative;
   background: var(--page-colar);
 }
@@ -313,7 +314,7 @@
   position: relative;
   place-self: start end;
   place-content: end;
-  inset: 20px 0px 20px 0px;
+  inset: 26px 0px 20px 0px;
   left: 95.7%;
   inline-size: 25px;
   block-size: 25px;
@@ -326,7 +327,7 @@
   content: "";
   position: relative;
   place-self: end start;
-  inset: auto 20px -237px 20px;
+  inset: auto 20px -245px 20px;
   inline-size: 25px;
   block-size: 25px;
   display: flex;
