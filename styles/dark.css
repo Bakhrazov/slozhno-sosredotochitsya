@@ -5,11 +5,9 @@
 */
 
 .page.theme_dark {
-  --font-family: 'IBM Plex Mono';
   --text-color-header_footer:  #DB00FF;
   --shadow-color-header_footer: #FF0070;
   --title-color: #FF0070;
-  --page-colar: #000028;
   --topic-text-colar:#FF0070;
   --paragraph-text-colar:#000028;
   --header-text-colar:#000028;
@@ -23,10 +21,7 @@
   */
 
   /*header*/
-  .cover {
-    background-image: var(--bg-image);
-  }
-
+  
   .header__theme-menu-button_active {
     border: 1px solid var(--border-color);
   }
@@ -37,6 +32,7 @@
 
   .rec {
     color: var(--rec-color);
+    opacity: 1;
   }
 
   .rec::after {
@@ -44,13 +40,21 @@
     box-shadow: 0px 0px 4px 2px var(--rec-color);
   }
 
-  .decorated-zone::before,
+  .decorated-zone::before{
+    border-block-start: 1px solid var(--border-color);
+    border-inline-end: 1px solid var(--border-color); 
+  }
+
   .footer-decorated-zone::before {
     border-block-start: 1px solid var(--border-color);
     border-inline-end: 1px solid var(--border-color); 
   }
   
-  .decorated-zone::after,
+  .decorated-zone::after{
+    border-block-end: 1px solid var(--border-color);
+    border-inline-start: 1px solid var(--border-color); 
+  }
+
   .footer-decorated-zone::after {
     border-block-end: 1px solid var(--border-color);
     border-inline-start: 1px solid var(--border-color); 
@@ -85,35 +89,16 @@
   }
 
   /*section 1*/
-  .first__text {
-    background: var(--page-colar);
-  }
-  
   .background_line_long {
     background: var(--title-color);
   }
 
   /*section 2*/
   .second__text {
-    background: var(--page-colar);
     border: 1px solid var(--page-colar);
   }
 
   .background_line_short {
     background: var(--title-color);
-  }
-
-  /*section 3*/
-  .third__text {
-    background: var(--page-colar);
-  }
-
-  /*section 4*/
-  .pictures__toc {
-    background: var(--page-colar);
-  }
-   
-  .pictures {
-    background: var(--page-colar);
   }
 }
