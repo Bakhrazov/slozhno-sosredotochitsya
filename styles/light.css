@@ -8,11 +8,15 @@
   --text-color-header_footer: #ffc2e6;
   --shadow-color-header_footer: #ff0070;
   --title-color: #ff8dcb;
-  --page-colar: #ffeef6;
+  --topic-text-colar: #353430;
   --text-color: #353430;
+  --line-color-hover: #32312d66;
+  --line-color-focus: #353430;
   --border-color: #353430;
   --rec-color: #ff0070;
   --bg-image: url(../images/cover-image-light.png);
+  --header-text-colar: #353430;
+  --paragraph-text-colar: #353430;
 }
 
 /*

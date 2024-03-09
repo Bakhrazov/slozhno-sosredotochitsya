@@ -5,100 +5,29 @@
 */
 
 .page.theme_dark {
-  --text-color-header_footer:  #DB00FF;
-  --shadow-color-header_footer: #FF0070;
-  --title-color: #FF0070;
-  --topic-text-colar:#FF0070;
-  --paragraph-text-colar:#000028;
-  --header-text-colar:#000028;
-  --text-color: #F1B2CE;
-  --rec-color: #FF0070;
-  --border-color: #FF0070;
+  --text-color-header_footer: #db00ff;
+  --shadow-color-header_footer: #ff0070;
+  --title-color: #ff0070;
+  --topic-text-colar: #ff0070;
+  --text-color: #f1b2ce;
+  --line-color-hover: #ff007066;
+  --line-color-focus: #ff0070;
+  --border-color: #ff0070;
+  --rec-color: #ff0070;
   --bg-image: url(../images/cover-image-dark.png);
+  --header-text-colar: #000028;
+  --paragraph-text-colar: #000028;
   /* сохраните этот селектор в приведённом виде.
     Так стили написанные ниже будут иметь больший вес,
     чем стили в медиазапросе предпочтений пользователя
   */
 
   /*header*/
-  
-  .header__theme-menu-button_active {
-    border: 1px solid var(--border-color);
-  }
-
-  .header__theme-menu-button {
-    color: var(--topic-text-colar);
-  }
-
   .rec {
-    color: var(--rec-color);
     opacity: 1;
   }
 
-  .rec::after {
-    background-color: var(--rec-color);
-    box-shadow: 0px 0px 4px 2px var(--rec-color);
-  }
-
-  .decorated-zone::before{
-    border-block-start: 1px solid var(--border-color);
-    border-inline-end: 1px solid var(--border-color); 
-  }
-
-  .footer-decorated-zone::before {
-    border-block-start: 1px solid var(--border-color);
-    border-inline-end: 1px solid var(--border-color); 
-  }
-  
-  .decorated-zone::after{
-    border-block-end: 1px solid var(--border-color);
-    border-inline-start: 1px solid var(--border-color); 
-  }
-
-  .footer-decorated-zone::after {
-    border-block-end: 1px solid var(--border-color);
-    border-inline-start: 1px solid var(--border-color); 
-  }
-
-  .big__word {
-    font-family: var(--font-family);
-    color: #DB00FF;
-    text-shadow: 4px 4px #ff0070;
-  }
-
-  .cover__text__box {
-    background: var(--title-color);
-  }
-
-  .cover__text {
-    color: var(--header-text-colar);
-  }
-
-  /*section global*/
-  .text__bold {
-    color: var(--topic-text-colar);
-  }
-  
-  .text__bold-paragraph {
-    color: var(--paragraph-text-colar);
-  }
-
-  .text__regular {
-    font-family: var(--font-family);
-    color: var(--text-color);
-  }
-
-  /*section 1*/
-  .background_line_long {
-    background: var(--title-color);
-  }
-
-  /*section 2*/
-  .second__text {
-    border: 1px solid var(--page-colar);
-  }
-
-  .background_line_short {
-    background: var(--title-color);
+  .rec_point {
+    opacity: 1;
   }
 }
