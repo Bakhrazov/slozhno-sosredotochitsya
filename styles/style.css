@@ -349,30 +349,19 @@
 @media (668px < width < 770px) {
   /*header*/
   .cover {
-    padding-bottom: 59%;
-    position: static;
+    padding-bottom: 57.3%;
   }
 
   .text_position {
-    grid-template-rows: 52% auto 43.5% auto;
-  }
-
-  .decorated-zone::before {
-    top: 20px;
-    right: 3px;
+    grid-template-rows: 51% auto 43.5% auto;
   }
 
   .decorated-zone::after {
-    bottom: 3px;
-  }
-
-  .rec_position {
-    top: 21px;
-    right: 12px;
+    bottom: 10px;
   }
 
   .header__theme-menu-list {
-    padding: 22.3% 25px 0% 0%;
+    padding: 22.6% 20px 0% 0%;
     gap: 11px;
     flex-direction: column;
     align-items: flex-end;
@@ -388,7 +377,7 @@
   .first__text {
     grid-template-columns: 32% 2fr;
     column-gap: 3.2%;
-    padding: 7.6% 20px 13.5% 2.6%;
+    padding: 9.1% 20px 13.5% 2.6%;
     row-gap: 3.3%;
   }
 
